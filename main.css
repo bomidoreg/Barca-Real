@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(11, 0, 158) 100%, rgba(0,212,255,1) 100%); 
+    flex-basis: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav a{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    padding: 64px;
+    font-weight: bolder;
+}
+li :hover{
+    color: #ff0000;
+}
+article{
+    padding: 1em;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    padding: 1em;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+}
+main img{
+     border:2px solid #fff;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+header{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+ border-bottom-color: #fff;
+ border-bottom: solid;
+ position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(11, 0, 158) 100%, rgba(0,212,255,1) 100%);
+ z-index: 10;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#start{
+    text-align: center;
+    padding: 0.5em;
+    font-size: larger;
+    font-weight: bolder;
+}
+#instruction{
+    text-align: center;
+    padding: 1em;
+}
+main{
+    border-bottom: solid;
+    border-bottom-color: #fff;
+}
+.herbs{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: auto;
+}
+#barca{
+    border: solid; 
+}
+#real{
+border: solid;
+}
+footer{
+    border: 1px solid hsl(222, 50%, 70%);
+    display: flex;
+    padding: 1em;
+    font-size: 30px;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+a:hover{
+    color: #ff0000;
+}
+.herbs>a> :hover{
+filter: brightness(20%);
+}
+.herbs>aside{
+width: 2%;
+word-break: break-all;
+}
+aside>h3{
+    height: 100%;
+    text-align: center;
+}
+#podstrona{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    padding: 1em;
+}
+.images{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+}
+.opis{
+    padding: 1em;
+}
+.opis>details>summary{
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    font-size: 50px;
+}
